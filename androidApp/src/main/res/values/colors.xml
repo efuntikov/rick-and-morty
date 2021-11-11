@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="characterCardBackground">#3C3E44</color>
+    <color name="statusAlive">#55CC44</color>
+    <color name="statusDead">#D63D2E</color>
+    <color name="statusUnknown">#6E6E6E</color>
+
+    <!-- Accent color -->
+    <color name="accent_primary">#345AA7</color>
+    <color name="accent_primary_disabled">#4D345AA7</color>
+    <color name="accent_secondary">#627791</color>
+    <color name="accent_secondary_80">#33627791</color>
+    <color name="accent_tertiary">#A3627791</color>
+    <color name="accent_quarternary">#14627791</color>
+    <color name="accent_quarternary_disabled">#0E627791</color>
+    <color name="accent_alert">#0CBBD7</color>
+    <!-- Semiotic color -->
+    <color name="semiotic_error">#FA6A4B</color>
+    <color name="semiotic_attention">#0CBBD7</color>
+    <color name="semiotic_caution">#FDB72F</color>
+
+    <!-- Foreground color -->
+    <color name="foreground_primary">#1A1A1A</color>
+    <color name="foreground_secondary">#B81A1A1A</color>
+    <color name="foreground_tertiary">#701A1A1A</color>
+    <color name="foreground_quarternary">#141A1A1A</color>
+
+    <!-- Background color -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F5F5F5</color>
+    <color name="background_tertiary">#C8CCCE</color>
+    <color name="background_accent">#213246</color>
+    <color name="background_accent_disabled">#4D213246</color>
+    <color name="background_primary_12">#1FFFFFFF</color>
+    <color name="background_primary_64">#A3FFFFFF</color>
+    <color name="background_accent_30">#4D213246</color>
+
+    <color name="primary">@color/accent_primary</color>
+    <color name="primary_selected">#5B9A08</color>
+    <color name="primary_highlighted">@color/primary_selected</color>
+
+    <color name="attention">@color/semiotic_attention</color>
+    <color name="critical">@color/semiotic_error</color>
+    <color name="critical_selected">#D62E48</color>
+    <color name="critical_highlighted">@color/critical_selected</color>
+
+    <color name="text_primary">@color/primary</color>
+    <color name="text_primary_highlighted">@color/primary_highlighted</color>
+
+    <color name="text_secondary">@color/white</color>
+    <color name="text_accent_secondary">@color/accent_secondary</color>
+    <color name="text_tertiary">@color/foreground_tertiary</color>
+
+    <color name="text_dark">@color/foreground_primary</color>
+    <color name="text_dark_secondary">@color/background_primary_64</color>
+    <color name="text_light">@color/foreground_secondary</color>
+    <color name="text_white">@color/white</color>
+    <color name="text_disabled">@color/background_tertiary</color>
+    <color name="text_attention">@color/attention</color>
+    <color name="text_critical">@color/critical</color>
+    <color name="text_critical_highlighted">@color/critical_highlighted</color>
+
+</resources>

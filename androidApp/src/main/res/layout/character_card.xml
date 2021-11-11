@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/characterCardBackground"
+    tools:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/characterAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="100dp"/>
+
+    <LinearLayout
+        android:id="@+id/characterDescriptionView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/characterName"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle.Heading1"
+            tools:text="Character name"/>
+
+        <com.efuntikov.rickandmorty.android.view.CharacterStatusView
+            android:id="@+id/characterStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin" />
+
+        <com.efuntikov.rickandmorty.android.view.LabeledTextView
+            android:id="@+id/lastLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin"/>
+
+        <com.efuntikov.rickandmorty.android.view.LabeledTextView
+            android:id="@+id/firstSeenIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin"/>
+
+    </LinearLayout>
+
+</LinearLayout>

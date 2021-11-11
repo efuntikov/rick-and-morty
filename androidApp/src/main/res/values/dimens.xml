@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_margin">0dp</dimen>
+    <dimen name="tiny_margin">1dp</dimen>
+    <dimen name="xxxsmall_margin">2dp</dimen>
+    <dimen name="xxsmall_margin">4dp</dimen>
+    <dimen name="xsmall_margin">8dp</dimen>
+    <dimen name="small_margin">12dp</dimen>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="xnormal_margin">20dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="xlarge_margin">32dp</dimen>
+    <dimen name="xxlarge_margin">40dp</dimen>
+    <dimen name="xxxlarge_margin">72dp</dimen>
+
+    <!-- Text Font Sizes -->
+    <dimen name="text_heading1">24sp</dimen>
+    <dimen name="text_heading2">22sp</dimen>
+    <dimen name="text_heading3">19sp</dimen>
+    <dimen name="text_heading4">17sp</dimen>
+    <dimen name="text_heading_caps">13sp</dimen>
+    <dimen name="text_body_size">17sp</dimen>
+    <dimen name="text_compact_size">15sp</dimen>
+    <dimen name="text_meta">13sp</dimen>
+    <dimen name="text_micro">10sp</dimen>
+    <dimen name="paragraph_spacing">8sp</dimen>
+
+    <!-- Layout Spacing Sizes -->
+    <dimen name="text_letter_spacing_extra">0.06</dimen>
+    <dimen name="text_line_spacing_extra">1dp</dimen>
+    <dimen name="text_line_spacing_extra_multiplier">1.25</dimen>
+    <dimen name="selectable_row_min_height">56dp</dimen>
+    <dimen name="seekbar_tick_mark_size">7dp</dimen>
+    <dimen name="page_indicator_padding">4dp</dimen>
+</resources>
